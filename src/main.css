@@ -1,0 +1,59 @@
+:root {
+  --primary-green: #324a36;
+  --primary-yellow: #ffe796;
+  --primary-purple: #6c4b5e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+body {
+  background: var(--primary-yellow);
+  margin: 0;
+  padding: 4rem;
+  line-height: 1.5;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+h1 {
+  color: var(--primary-green);
+  font-size: 4rem;
+  font-weight: 700;
+  font-variation-settings: "YOPQ" 40;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-variation-settings: "YOPQ" 40;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1,
+  p {
+    text-align: center;
+  }
+
+  height: 100vh;
+}
+
+.story_cloth_1 {
+  max-width: 150px;
+}
