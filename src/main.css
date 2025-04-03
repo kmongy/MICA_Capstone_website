@@ -39,7 +39,7 @@ h2 {
   font-variation-settings: "YOPQ" 40;
 }
 
-.introduction {
+.landing {
   display: flex;
   flex-direction: column;
   align-items: center;
