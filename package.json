@@ -1,5 +1,5 @@
 {
-  "name": "parcel-vanilla-starter",
+  "name": "MICA-Capstone-Project",
   "private": true,
   "version": "0.0.0",
   "source": "src/index.html",
@@ -7,7 +7,10 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "intersection-observer": "^0.12.2",
+    "scrollama": "^3.2.0"
+  },
   "devDependencies": {
     "parcel": "^2.14.0"
   }

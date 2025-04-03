@@ -3,7 +3,6 @@
   --primary-yellow: #ffe796;
   --primary-purple: #6c4b5e;
 }
-
 *,
 *::before,
 *::after {
@@ -51,9 +50,9 @@ h2 {
     text-align: center;
   }
 
-  height: 100vh;
+  height: 95vh;
 }
 
-.story_cloth_1 {
+.story-cloth-1 {
   max-width: 150px;
 }
