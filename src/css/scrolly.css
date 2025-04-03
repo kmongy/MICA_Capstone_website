@@ -1,0 +1,28 @@
+#intro {
+  position: relative;
+}
+article {
+  position: relative;
+  max-width: 40%;
+  margin: 0 auto;
+}
+.sticky-thing {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  top: 12.5vh;
+  width: 100%;
+  height: 75vh;
+}
+.blurb {
+  background-color: peru;
+  margin:15rem 0;
+  padding: .25rem;
+}
+.blurb.active {
+  background-color: red;
+  color: blue;
+}

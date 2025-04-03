@@ -1,3 +1,5 @@
+@import url(./scrolly.css);
+
 :root {
   --primary-green: #324a36;
   --primary-yellow: #ffe796;
@@ -55,4 +57,7 @@ h2 {
 
 .story-cloth-1 {
   max-width: 150px;
+}
+.word-cloud {
+  max-width: 100%;
 }
