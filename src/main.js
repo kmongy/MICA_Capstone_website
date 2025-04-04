@@ -2,7 +2,7 @@ import scrollama from "scrollama";
 
 let body = document.querySelector("body");
 let scrollIntro = body.querySelector("#intro");
-let sticky = scrollIntro.querySelector(".sticky-thing");
+let sticky = scrollIntro.querySelector(".sticky-container");
 let article = scrollIntro.querySelector("article");
 let blurbs = article.querySelectorAll(".blurb");
 
@@ -25,7 +25,7 @@ scroller
   .setup({
     step: "#intro article .blurb",
     offset: 0.50,
-    debug: true
+    debug: false
   })
   .onStepEnter(handleStepEnter)
 

@@ -3,11 +3,11 @@
 }
 article {
   position: relative;
-  max-width: 40%;
+  max-width: 45%;
   margin: 0 auto;
 }
-.sticky-thing {
-  background-color: cornflowerblue;
+.sticky-container {
+  background-color: bisque;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,10 @@ article {
   background-color: peru;
   margin:15rem 0;
   padding: .25rem;
+
+  img {
+    width: 100%;
+  }
 }
 .blurb.active {
   background-color: red;
