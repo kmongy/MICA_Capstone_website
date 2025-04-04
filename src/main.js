@@ -6,6 +6,8 @@ let sticky = scrollIntro.querySelector(".sticky-thing");
 let article = scrollIntro.querySelector("article");
 let blurbs = article.querySelectorAll(".blurb");
 
+let story1 = body.querySelector(".story-1");
+
 const scroller  = scrollama();
 
 function handleStepEnter(response) {
@@ -18,15 +20,13 @@ function handleStepEnter(response) {
   sticky.style.backgroundColor = el.dataset.color;
 }
 
-function init() {
-  scroller
-    .setup({
-      step: "#intro article .blurb",
-      offset: 0.50,
-      debug: true
-    })
-    .onStepEnter(handleStepEnter)
-}
 
-init()
+scroller
+  .setup({
+    step: "#intro article .blurb",
+    offset: 0.50,
+    debug: true
+  })
+  .onStepEnter(handleStepEnter)
+
 console.log("Hi. I work!")
