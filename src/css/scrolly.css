@@ -34,3 +34,11 @@ article {
   position: relative;
   display: flex;
 }
+#story-1-data-container {
+  flex-direction: column;
+  max-width: 500px;
+
+  img {
+    width: 100%;
+  }
+}
