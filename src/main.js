@@ -27,6 +27,7 @@ scroller
       let container = document.querySelector("#story-1-data-container");
 
       container.style.backgroundColor = "purple";
+      container.img.src = image1;
     }
   })
   .onStepExit((response) => {
