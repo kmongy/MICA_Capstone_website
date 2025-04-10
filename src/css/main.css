@@ -2,7 +2,7 @@
 
 :root {
   --primary-green: #324a36;
-  --primary-yellow: #ffe796;
+  --primary-yellow: #feebac;
   --primary-purple: #6c4b5e;
   --pink: #e53598;
 }
@@ -57,7 +57,7 @@ section {
   height: 95vh;
 }
 
-.may-svg-container{
+.may-intro-svg{
   max-width: 150px;
 }
 .word-cloud {
@@ -70,6 +70,6 @@ section {
 
   iframe {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
   }
 }
