@@ -15,7 +15,7 @@ const scroller  = scrollama();
 scroller
   .setup({
     step: ".story-element article .blurb",
-    offset: 0.50,
+    offset: 0.40,
     progress: true,
     debug: false
   })
@@ -27,7 +27,6 @@ scroller
       let container = document.querySelector("#story-1-data-container");
 
       container.style.backgroundColor = "purple";
-      container.img.src = image1;
     }
   })
   .onStepExit((response) => {

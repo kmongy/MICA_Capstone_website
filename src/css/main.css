@@ -56,12 +56,43 @@ section {
 
   height: 95vh;
 }
-
-.may-intro-svg{
-  max-width: 150px;
+.may-intro-container article .blurb{
+  margin-bottom: 30rem;
 }
+.may-story-intro {
+  display: flex;
+
+  .spacer {
+    background: red;
+    width: 400px;
+  }
+}
+.may-1-img-container {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  max-width: 180px;
+  img {
+    width: 100%;
+  }
+}
+.may-story {
+  background-color: var(--primary-green);
+  color: white;
+}
+.headlines {
+  img {
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+}
+
 .word-cloud {
-  width: 100%;
+  max-width: 500px;
+
+  svg {
+    width: 100%;
+  }
 }
 .constellation {
   border: 1px solid red;

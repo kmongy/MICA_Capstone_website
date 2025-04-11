@@ -5,12 +5,13 @@ article {
   position: relative;
   max-width: 45%;
   margin: 0 auto;
+
+  p {
+    text-align: center;
+  }
 }
 .sticky-container {
-  background-color: bisque;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(210, 211, 226);
   position: sticky;
   left: 0;
   top: 12.5vh;
@@ -22,7 +23,7 @@ article {
 }
 .blurb {
   background-color: peru;
-  margin:15rem 0;
+  margin:25rem 0;
   padding: .25rem;
 
   img {
@@ -30,8 +31,7 @@ article {
   }
 }
 .blurb.active {
-  background-color: red;
-  color: blue;
+  background-color: rgba(70, 51, 5, 0.75);
 }
 .story-1 {
   position: relative;
