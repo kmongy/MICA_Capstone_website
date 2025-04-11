@@ -34,12 +34,12 @@
         </div>
         <div class="blurb may-story">
           <p>"I was born in Laos in 1962. I have 9 siblings. I'm the fifth oldest child in my family. My two older
-            brothers passed away when they were only four and six years old. <br>Before my father passed, we lived a
+            brothers passed away when they were only four and six years old.<br><br>Before my father passed, we lived a
             pretty
             comfortable life. He was what was considered a personal bodyguard for General
             Vang Pao. I remember having couches and sleeping on mattresses. I don't think many other people had things
             like this. We
-            didn't have to really do anything. <br>But my father passed when I was 8 years old. Life changed
+            didn't have to really do anything.<br><br>But my father passed when I was 8 years old. Life changed
             immediatlely
             after that.
             All the people that helped us before had left. We were left to do things by ourselves. We didn't even know
@@ -50,6 +50,7 @@
           <p>Remembering and retelling these oral histories are essential for immigrant and refugee communities. It's
             how traditions and culture are passed down to each generation.</p>
         </div>
+        <div class="blurb"></div>
       </article>
     </section>
 
@@ -592,7 +593,6 @@
             in their stories.</p>
         </div>
         <div class="blurb">
-          <p></p>
         </div>
       </article>
     </section>
@@ -602,13 +602,14 @@
 
       <article class="story-1-stepper">
         <div class="blurb" data-step="1">
-          <p>Like any story, each oral history has peaks and valleys - positive and negative elements that comprise the
+          <p>Like any story, oral histories have positive and negative elements that comprise the
             whole.</p>
           <p>The words used to describe their experiences were passed through a set of sentiment lexicons. The AFINN
-            lexicon assigns a word a rating between -5 and 5, indicating a negative or positive sentiment.</p>
+            lexicon assigns a word a rating between -5 and 5, indicating the intensity of a negative or positive
+            sentiment.</p>
         </div>
         <div class="blurb" data-step="2">
-          <p>Some oral histories were a little shorter than others when interviewed, but the words used to describe
+          <p>Some oral histories were a little shorter than others, but the words used to describe
             their experiences offer insight into their world.</p>
         </div>
         <div class="blurb" data-step="3">
@@ -617,11 +618,12 @@
         <div class="blurb" data-step="3">
           <p>**ADD average sentiment scores **</p>
         </div>
-
         <div class="blurb" data-step="4">
-          <p>All together, the average sentiment for all the stories combined is -0.035; a slightly negative sentiment.
+          <p>All together, the average sentiment for all the stories combined is<b> -0.035</b>; a slightly
+            negative sentiment overall.
           </p>
         </div>
+        <div class="blurb"></div>
       </article>
 
       <div id="story-1-data-container" class="sticky-container plotly-facet">
@@ -629,21 +631,35 @@
       </div>
     </section>
 
+    <h2>NRC Sentiment</h2>
+    <section class="story-2 story-element">
+      <div id="story-2-data-container" class="sticky-container">
+        <img src="./assets/nrc-sentiment-DRAFT.png" alt="">
+      </div>
+
+      <article>
+        <div class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sapiente nesciunt iste
+          saepe, doloremque in magni mollitia voluptatum voluptate illo beatae voluptates deleniti quibusdam, architecto
+          quia placeat. Nemo, dolorum natus!</div>
+        <div class="blurb">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, consequuntur dolorem sit
+          fugiat molestiae neque dicta facilis ipsum laborum accusamus inventore eaque impedit nobis consequatur vero
+          numquam distinctio labore velit.</div>
+        <div class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint sequi culpa accusamus
+          repellendus totam quo animi eligendi asperiores dignissimos, suscipit hic deleniti dolorum eum rem repudiandae
+          quam voluptates quod?</div>
+        <div class="blurb"></div>
+      </article>
+    </section>
+
     <h2>Constellation</h2>
-    <section class="story story-2">
+    <section class="story story-3">
       <p>Scroll inside to zoom in on word pairs.</p>
+      <p>You can click and drag the nodes.</p>
       <div id="story-2-data-container" class="story-element constellation">
         <iframe src="./components/d3graph2.html" frameborder="0"></iframe>
       </div>
     </section>
 
-    <section class="story story-3">
-
-      <div class="story-element">
-        <h2>Creating a Home</h2>
-        <p>What was life like in the US?</p>
-      </div>
-    </section>
   </body>
 
   <script type="module" src="./main.js"></script>
