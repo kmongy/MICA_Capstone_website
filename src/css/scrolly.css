@@ -9,6 +9,7 @@ article {
   }
   :last-child {
     background: transparent;
+    margin: 0;
   }
 }
 .sticky-container {
@@ -26,10 +27,10 @@ article {
   background-color: var(--primary-green);
   color: white;
   margin:25rem 0;
-  padding: .5rem;
+  padding: 1rem;
   min-width: 25%;
   max-width: 75%;
-  margin: 15rem auto;
+  margin: 25rem auto;
 
   img {
     width: 100%;
