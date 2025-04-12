@@ -3,10 +3,6 @@
 }
 article {
   position: relative;
-
-  p {
-    text-align: center;
-  }
 }
 
 .sticky-container {
@@ -21,20 +17,26 @@ article {
 }
 .blurb {
   background-color: var(--primary-green);
+  border: .1rem solid var(--primary-green);
+  box-shadow: .32rem .75rem 1rem rgb(118, 117, 117);
   color: white;
   margin:25rem 0;
-  padding: 1rem;
-  min-width: 25%;
-  max-width: 75%;
+  padding: 2rem 1rem;
   margin: 25rem auto;
+  min-width: 25%;
+  max-width: 600px;
+
+  p {
+    text-align: justify;
+  }
 
   img {
     width: 100%;
   }
 }
 .blurb.active {
-  background-color: #3c7db6;
+  background-color: #4c7152;
 }
 .blurb.may-story.active {
-  background-color: var(--primary-purple);
+  background-color:var(--blue);
 }

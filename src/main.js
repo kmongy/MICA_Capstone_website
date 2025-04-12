@@ -13,6 +13,7 @@ scroller
   .setup({
     step: ".story-element article .blurb",
     offset: 0.40,
+    threshold: 10,
     progress: true,
     debug: false
   })
