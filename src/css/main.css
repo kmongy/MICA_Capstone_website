@@ -119,7 +119,6 @@ p {
   iframe {
     width: 100%;
     height: 100%;
-    padding: .5rem;
   }
 
   img {
@@ -144,9 +143,13 @@ p {
     width: 100%;
   }
 }
+
+.frequency-treemap {
+  display: flex;
+  gap: 2rem;
+}
 .constellation {
   border: .25rem solid var(--primary-green);
   max-width: 65rem;
   height: 70vh;
-  margin: 0 auto;
 }
