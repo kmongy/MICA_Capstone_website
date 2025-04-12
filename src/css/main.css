@@ -137,19 +137,33 @@ p {
       }
   }
 }
-
 .word-cloud {
   svg {
     width: 100%;
   }
 }
-
 .frequency-treemap {
   display: flex;
   gap: 2rem;
+}
+.story-3 {
+  background: #171436;
+    background: linear-gradient(0deg, rgba(23, 20, 54, 1) 0%, rgba(23, 20, 54, 1) 28%, rgba(55, 92, 135, 1) 71%);
+  padding: 4rem;
+  margin: -4rem;
+}
+.constellation-instructions {
+  color: white;
+  text-align: center;
 }
 .constellation {
   border: .25rem solid var(--primary-green);
   max-width: 65rem;
   height: 70vh;
+}
+.ending {
+  background: #171436;
+    background: linear-gradient(181deg, rgba(23, 20, 54, 1) 0%, rgba(23, 20, 54, 1) 28%, rgba(55, 92, 135, 1) 71%);
+    margin: -4rem;
+    padding: 4rem;
 }
