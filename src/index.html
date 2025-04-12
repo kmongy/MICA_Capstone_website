@@ -21,7 +21,7 @@
     <section class="may-intro-container story-element">
       <div class="sticky-container may-story-intro">
         <div class="may-1-img-container">
-          <img src="./assets/mayDrawing1.png" alt="Line drawing of a Hmong woman carrying a weaved basket on her back.">
+          <img src="./assets/may1.png" alt="Line drawing of a Hmong woman carrying a weaved basket on her back.">
         </div>
       </div>
 
@@ -46,17 +46,16 @@
             how to plant
             or farm well."</p>
         </div>
-        <div class="blurb">
-          <p>Remembering and retelling these oral histories are essential for immigrant and refugee communities. It's
-            how traditions and culture are passed down to each generation.</p>
-        </div>
-        <div class="blurb"></div>
+
       </article>
     </section>
 
-    <section class="intro story-element">
-      <div class="sticky-container intro-background">
-        <p>Potentially start with a blank canvas and add on to it!</p>
+    <section class="story-element story-0">
+      <div class="sticky-container">
+        <div class="storycloth-container">
+          <img class="storycloth1" src="./assets/storycloth1.png"
+            alt="Sketch of a Hmong women carrying a basket next to a village house.">
+        </div>
       </div>
 
       <article>
@@ -78,7 +77,29 @@
           <p>What if we could hear from immigrant and refugee communities instead?</p>
         </div>
         <div class="blurb">
-          <p>21 oral histories were analyzed. tell their histories.</p>
+          <p>Remembering and retelling oral histories are essential for immigrant and refugee communities. It's
+            how traditions and culture are passed down to each generation.</p>
+        </div>
+        <div class="blurb may-story">
+          <p>"Outside of school, sometimes you still have to help your teacher with farming. We had a deep respect for
+            our teachers
+            and so when they asked for help, you'd volunteer to plant the rice or carry vegetables. At home, we'd help
+            my mother
+            with farming too.<br><br> We raised some chickens and pigs. I even had a pet pig. I didn't want to kill it
+            to
+            eat
+            it. I had to
+            watch my younger siblings too. We never stayed home to play or anything. There was a lot to do. Life was
+            pretty
+            difficult. We learned quickly that if your parents didn't have status or have a good job, that you'd be left
+            to do everything by yourself."</p>
+        </div>
+        <div class="blurb">
+          <p>Each story reveals something about the journey that include struggles and triumphs. Along with May's story,
+            20 other oral histories were
+            analyzed for this project. After removing common stop words like "the", "and", and others, what follows are
+            the top 100 words most frequently mentioned in all the
+            stories.</p>
         </div>
         <div class="blurb word-cloud">
           <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -592,18 +613,35 @@
           <p>People, time, family, and children are just a few of the most frequently mentioned words
             in their stories.</p>
         </div>
-        <div class="blurb">
+        <div class="frequency-treemap">
+          <div class="img-container">
+            <img src="./assets/frequency_top_ten.png" alt="">
+          </div>
         </div>
+        <div class="blurb">
+          <p>View May's most frequently used words in her story:</p>
+        </div>
+        <div class="blurb may-story may-story-frequency">
+          <div class="frequency-container">
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+          </div>
+        </div>
+
       </article>
     </section>
 
     <h2>Sentiment</h2>
     <section class="story-1 story-element">
 
-      <article class="story-1-stepper">
+      <article>
         <div class="blurb">
           <p>Like any story, oral histories have positive and negative elements that comprise the
             whole.</p>
+          <br>
           <p>The words used to describe their experiences were passed through a set of sentiment lexicons. The AFINN
             lexicon assigns a word a rating between -5 and 5, indicating the intensity of a negative or positive
             sentiment.</p>
@@ -620,15 +658,34 @@
         </div>
         <div class="blurb">
           <p>All together, the average sentiment for all the stories combined is<b> -0.035</b>; a slightly
-            negative sentiment overall.
+            negative sentiment, but essentially neutral overall.
           </p>
         </div>
-        <div class="blurb"></div>
       </article>
 
       <div id="story-1-data-container" class="sticky-container plotly-facet">
         <iframe src="./components/plotly1.html" frameborder="0"></iframe>
       </div>
+    </section>
+
+    <section>
+      <article>
+        <div class="blurb may-story">
+          <p>"I remember walking to school with a little can of charcoal to warm our hands during the cold season. We
+            didn't have
+            lunch at school. You'd have to walk all the way back home or if you had the means to pack lunch, you'd do
+            that. When you
+            got to school, you'd leave that can next to you.
+            <br><br>There were these rules in place where your nails couldn't
+            be too long.
+            If it was, your hands would be hit. For all the school subjects, we had to memorize or write it down in our
+            notebooks.
+            We didn't have books to bring home. If the teacher asked, we had to be ready to respond with what we
+            memorized. That's
+            how we got credit. We memorized so much that there are some things I still remember to this day."
+          </p>
+        </div>
+      </article>
     </section>
 
     <h2>NRC Sentiment</h2>

@@ -7,13 +7,9 @@ article {
   p {
     text-align: center;
   }
-  :last-child {
-    background: transparent;
-    margin: 0;
-  }
 }
+
 .sticky-container {
-  background-color: rgb(210, 211, 226);
   position: sticky;
   left: 0;
   top: 12.5vh;
@@ -37,19 +33,8 @@ article {
   }
 }
 .blurb.active {
-  background-color: rgb(0, 0, 0, 0.5)
+  background-color: #3c7db6;
 }
-.story-1 {
-  position: relative;
-  display: flex;
-}
-#story-1-data-container {
-  width: 2000px;
-  flex-grow: 1;
-
-  iframe {
-      width: 100%;
-      height: 100%;
-      padding: 1rem;
-    }
+.blurb.may-story.active {
+  background-color: var(--primary-purple);
 }

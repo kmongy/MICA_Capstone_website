@@ -42,48 +42,64 @@ h2 {
 section {
   margin: 2rem 0;
 }
+p {
+  margin: 0;
+}
 .landing {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
-
+  height: 95vh;
   h1,
   p {
     text-align: center;
   }
-
-  height: 95vh;
 }
 .story-element {
   margin-bottom: 24rem;
 }
-.may-intro-container article .blurb {
-  width: fit-content;
-  margin-bottom: 30rem;
-}
-.may-story-intro {
-  display: flex;
-
-  .spacer {
-    background: red;
-    width: 400px;
-  }
-}
-.may-1-img-container {
-  position: absolute;
-  top: 2rem;
-  right: 1rem;
-  max-width: 280px;
+.img-container {
+  max-width: 700px;
+  margin: 0 auto;
 
   img {
     width: 100%;
   }
 }
+.may-intro-container article .blurb {
+  width: fit-content;
+  margin-bottom: 30rem;
+}
+.may-1-img-container {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  max-width: 320px;
+
+  img {
+    width: 100%;
+  }
+}
+.storycloth-container {
+  position: relative;
+
+  .storycloth1 {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    width: 240px;
+  }
+}
 .may-story {
   background-color: var(--primary-purple);
   color: white;
+}
+.story-1,
+.story-2 {
+  position: relative;
+  display: flex;
 }
 .headlines {
   img {
@@ -95,6 +111,16 @@ section {
 .word-cloud {
   svg {
     width: 100%;
+  }
+}
+#story-1-data-container {
+  width: 2000px;
+  flex-grow: 1;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
   }
 }
 #story-2-data-container {
