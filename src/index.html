@@ -27,7 +27,7 @@
 
       <article>
         <div class="blurb">
-          <p>This is May.</p>
+          <p class="introduction-scroll">This is May.</p>
         </div>
         <div class="blurb">
           <p>May is a first generation immigrant.</p>
@@ -66,11 +66,18 @@
         <div class="blurb">
           <p>We often only hear <i>about</i> immigrant communities:</p>
         </div>
-        <div class="blurb headlines">
-          <img src="./assets/headline1.png"
-            alt="News headline saying, 'Why Immigration is now the No.1 Issue for Voters.'">
-          <img src="./assets/headline2.png" alt="A section of a website with various headlines on immigration.">
-          <img src="./assets/headline3.png" alt="Another section of a website with different headlines on immigration.">
+        <div class="headlines">
+          <div class="headline-img-container">
+            <img src="./assets/headline1.png"
+              alt="News headline saying, 'Why Immigration is now the No.1 Issue for Voters.'">
+          </div>
+          <div class="headline-img-container">
+            <img src="./assets/headline2.png" alt="A section of a website with various headlines on immigration.">
+          </div>
+          <div class="headline-img-container">
+            <img src="./assets/headline3.png"
+              alt="Another section of a website with different headlines on immigration.">
+          </div>
         </div>
         <div class=" blurb">
           <p>What if we could hear from immigrant and refugee communities instead?</p>
@@ -100,7 +107,7 @@
             the top 100 words most frequently mentioned in all the
             stories.</p>
         </div>
-        <div class="blurb word-cloud">
+        <div class="word-cloud">
           <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 602.14 563">
             <defs>
@@ -688,15 +695,11 @@
 
     <h2>NRC Sentiment</h2>
     <section class="story-2 story-element">
-      <div id="story-2-data-container" class="sticky-container">
-        <img src="./assets/nrc-sentiment-DRAFT.png" alt="">
-      </div>
-
       <article>
         <div class="blurb">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus porro nihil optio cum quasi debitis
-            illo nesciunt, sequi, beatae praesentium, eos eaque possimus doloremque ad blanditiis labore cumque
-            provident.</p>
+          <p>The NRC lexicon categorizes words into different emotional categories:<br><br> anger, fear, anticipation,
+            trust,
+            surprise, sadness, joy, and disgust.</p>
         </div>
         <div class="blurb">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, neque illo. Neque at hic ratione libero minima
@@ -708,24 +711,32 @@
             officia odio provident? Quo provident perferendis vel ducimus facere blanditiis quisquam eos inventore sunt!
           </p>
         </div>
-        <div class="blurb">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nostrum perferendis quae illo iste nisi
-            nam beatae minus repellat, assumenda magni. Consequuntur facilis voluptatibus magni! Aliquid modi repellat
-            possimus cum?</p>
-        </div>
       </article>
+
+      <div id="story-2-data-container" class="sticky-container">
+        <iframe src="./components/plotly2.html" frameborder="0"></iframe>
+      </div>
+
     </section>
 
     <h2>Constellation</h2>
-    <section class="story story-3">
+    <section class="story-3 story-element">
+      <article>
+        <div class="blurb">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt velit neque deserunt? Soluta, rem
+            dignissimos! Sint eius placeat minus porro minima aperiam quod qui. Omnis perspiciatis beatae rerum maiores.
+          </p>
+        </div>
+      </article>
       <p>Scroll inside to zoom in on word pairs.</p>
       <p>You can click and drag the nodes.</p>
       <br>
-      <div id="story-2-data-container" class="story-element constellation">
-        <iframe src="./components/d3graph2.html" frameborder="0"></iframe>
+      <div id="story-3-data-container" class="story-element constellation">
+        <iframe src="./components/d3networkgraph.html" frameborder="0"></iframe>
       </div>
     </section>
 
+    <h2>The Whole Story</h2>
     <section class="ending">
 
     </section>

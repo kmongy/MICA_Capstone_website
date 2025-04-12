@@ -16,10 +16,10 @@ article {
   height: 400px;
 }
 .blurb {
-  background-color: var(--primary-green);
-  border: .1rem solid var(--primary-green);
+  background-color: #fff;
+  border: .2rem solid var(--primary-green);
   box-shadow: .32rem .75rem 1rem rgb(118, 117, 117);
-  color: white;
+  color: var(--primary-green);
   margin:25rem 0;
   padding: 2rem 1rem;
   margin: 25rem auto;
@@ -35,8 +35,9 @@ article {
   }
 }
 .blurb.active {
-  background-color: #4c7152;
+  border: .2rem solid var(--blue);
 }
 .blurb.may-story.active {
+  border: 2rem solid var(--blue-grey);
   background-color:var(--blue);
 }
