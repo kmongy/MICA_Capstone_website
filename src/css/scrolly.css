@@ -20,9 +20,8 @@ article {
   border: .2rem solid var(--primary-green);
   box-shadow: .32rem .75rem 1rem rgb(118, 117, 117);
   color: var(--primary-green);
-  margin:25rem 0;
+  margin: 12rem auto 25rem auto;
   padding: 2rem 1rem;
-  margin: 25rem auto;
   min-width: 25%;
   max-width: 600px;
 

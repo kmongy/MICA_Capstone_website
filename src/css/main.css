@@ -177,8 +177,8 @@ text-align: center;
   padding: .25rem;
 }
 .story-3 {
-  background: #171436;
-    background: linear-gradient(0deg, rgba(23, 20, 54, 1) 0%, rgba(23, 20, 54, 1) 28%, rgba(55, 92, 135, 1) 71%);
+background: #171436;
+  background: linear-gradient(0deg, rgba(23, 20, 54, 1) 23%, rgba(55, 92, 135, 1) 55%, rgba(239, 239, 239, 1) 88%);
   padding: 4rem;
   margin: -4rem;
 }
@@ -187,15 +187,14 @@ text-align: center;
   text-align: center;
 }
 .constellation {
-  border: .25rem solid var(--primary-green);
   max-width: 65rem;
   height: 70vh;
 }
 .ending {
   background: #171436;
-    background: linear-gradient(181deg, rgba(23, 20, 54, 1) 0%, rgba(23, 20, 54, 1) 28%, rgba(55, 92, 135, 1) 71%);
-    margin: -4rem;
-    padding: 4rem;
+  background: linear-gradient(180deg, rgba(23, 20, 54, 1) 23%, rgba(55, 92, 135, 1) 55%, rgba(239, 239, 239, 1) 88%);
+  margin: -4rem;
+  padding: 4rem;
 }
 .ending-intro {
   h2, p {

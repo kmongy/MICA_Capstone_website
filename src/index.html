@@ -88,8 +88,8 @@
             migrants. It's how traditions, culture, and experience are passed down to each generation.</p>
         </div>
         <div class="blurb">
-          <p>You've already read a little bit of May's story. You'll get to hear the entirety of her experience as a
-            refugee, then as a citizen of the United States.
+          <p>You've already read a little bit of May's story. You'll get to read the entirety of her experience as a
+            refugee, and then also as a citizen of the United States.
           </p>
         </div>
         <div class="blurb may-story">
@@ -107,12 +107,12 @@
             to do everything by yourself."</p>
         </div>
         <div class="blurb">
-          <p>Every story reveals something about the journey that include struggles and triumphs and everything in
+          <p>Every story reveals something about the journey that include struggles, triumphs, and everything in
             between. Along with May's story,
             20 other oral histories were
             analyzed for this project. <br><br>After removing common stop words like "the", "and", and others, what
             follows are
-            the top 100 words most frequently mentioned in all the
+            the top 100 words most frequently mentioned in all of the
             stories.</p>
         </div>
         <div class="word-cloud">
@@ -652,14 +652,17 @@
             each word a rating between -5 and 5, indicating the intensity of a negative or positive sentiment.</p>
         </div>
         <div class="blurb">
-          <p>Explore the words and sentiment values with the chart below. You'll notice that there are
-            many words used just once.</p>
+          <p>Explore the words and sentiment values with the chart below. Each box represents a different person's oral
+            history.</p>
         </div>
       </article>
+
+      <div class="graph-instructions">
+        <p>A single click on a number on the legend will highlight or remove the word frequency from the chart.</p>
+        <p>Double-click on a number to highlight a word frequency or to reset the chart.</p>
+      </div>
+
       <div id="story-1-data-container" class="sticky-container plotly-facet">
-        <div class="graph-instructions">
-          <p>Double-click on a number on the legend to highlight the frequency of the word.</p>
-        </div>
         <br>
         <p class="plotly-facet-title">Word Sentiment Values</p>
         <iframe src="./components/plotly1.html" frameborder="0"></iframe>
@@ -669,12 +672,10 @@
     <section class="story-element story-1-avg">
       <article>
         <div class="blurb">
-          <p>Each person was given an average sentiment score.</p>
+          <p>An average sentiment score was also calculated for each oral person.</p>
         </div>
         <div class="blurb">
-          <p>All together, the average word sentiment for all the stories combined is<span
-              class="avg-inner"><b>-0.04</b></span>; a slightly
-            negative sentiment, but essentially neutral overall.
+          <p>All together, the average sentiment score is <span class="avg-inner"><b>-0.04</b></span>.
           </p>
         </div>
         <div class="blurb">
@@ -707,23 +708,17 @@
       </article>
     </section>
 
-    <h2>NRC Sentiment</h2>
+    <h2>Emotional Sentiment</h2>
     <section class="story-2 story-element">
       <article>
         <div class="blurb">
-          <p>The NRC lexicon categorizes words into different emotional categories:<br><br> anger, fear, anticipation,
+          <p>Using a different lexicon, words from the oral histories were categorized into different emotions:<br><br>
+            anger, fear, anticipation,
             trust,
             surprise, sadness, joy, and disgust.</p>
         </div>
         <div class="blurb">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, neque illo. Neque at hic ratione libero minima
-            iusto non veniam? Reprehenderit, qui tenetur accusamus ullam molestiae voluptatem repellat quo consectetur.
-          </p>
-        </div>
-        <div class="blurb">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores error illo corrupti iste ab unde rerum
-            officia odio provident? Quo provident perferendis vel ducimus facere blanditiis quisquam eos inventore sunt!
-          </p>
+          <p>The "trust" category accounted for a lot of the emotional sentiment for all the oral histories.</p>
         </div>
       </article>
 
@@ -731,11 +726,23 @@
         <iframe src="./components/plotly2.html" frameborder="0"></iframe>
       </div>
     </section>
+    <div class="blurb may-story">
+      <p>"It was during the fourth month in 1975 when I remember Saigon fell to the communist forces. The next month,
+        the Pathet
+        Lao took control of new areas - areas that encroached on our homes. We were scared. General Vang Pao, a Hmong
+        leader
+        involved with the CIA, knew we all had to leave. If we stayed, we knew were going to be captured and tortured
+        in
+        re-education camps. We knew people who were captured, tortured, and died."</p>
+    </div>
 
     <section class="story-3 story-element">
-      <h2>Constellation</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum nostrum tempore soluta magni modi nulla
-        inventore temporibus quos expedita, iure veniam quasi laudantium vel aspernatur nam voluptates fugiat eum?</p>
+      <div class="story-3-intro">
+        <h2>Constellation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum nostrum tempore soluta magni modi
+          nulla
+          inventore temporibus quos expedita, iure veniam quasi laudantium vel aspernatur nam voluptates fugiat eum?</p>
+      </div>
       <article>
         <div class="blurb may-story">
           <p>"When we got to Vientiane, my sister went to find a person to take us across the MeKong river to get to
