@@ -110,6 +110,13 @@ p {
     right: 1rem;
     width: 240px;
   }
+
+  .storycloth2 {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    width: 300px;
+  }
 }
 #story-1-data-container,
 #story-2-data-container,
