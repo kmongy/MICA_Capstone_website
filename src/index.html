@@ -15,7 +15,7 @@
   <body>
     <section class="landing">
       <h1>A Place to Call Home</h1>
-      <p>An analysis of Immigrant and Refugee Oral Histories</p>
+      <p>Remembering Immigrant, Refugee, and Migrant Oral Histories</p>
     </section>
 
     <section class="may-intro-container story-element">
@@ -30,7 +30,7 @@
           <p class="introduction-scroll">This is May.</p>
         </div>
         <div class="blurb">
-          <p>May is a first generation immigrant.</p>
+          <p>May was a refugee from Thailand.</p>
         </div>
         <div class="blurb may-story">
           <p>"I was born in Laos in 1962. I have 11 siblings. I'm the fifth oldest child in my family. My two older
@@ -47,7 +47,7 @@
             All the people that helped us before had left. We were left to do things by ourselves. We didn't even know
             how to plant
             or farm well because my mother was married so young. My father was a teacher before he became a soldier. He
-            was well respected by our community."</p>
+            was well respected by our community. A lot of people helped our family because of who he was."</p>
         </div>
       </article>
     </section>
@@ -62,11 +62,13 @@
 
       <article>
         <div class="blurb">
-          <p>Immigrants and refugees in the United States have always had stories to tell. Their stories have shaped and
+          <p>Immigrants, refugees, migrants, and asylum seekers in the United States have always had stories to tell.
+            Their stories have shaped and
             continue shaping history.</p>
         </div>
         <div class="blurb">
-          <p>We often only hear <i>about</i> immigrant communities:</p>
+          <p>But their stories aren't always highlighted or talked about. Most often, it's the sentiment or fear of
+            people oustide of these communities that get headlines.</p>
         </div>
         <div class="headlines">
           <div class="headline-img-container">
@@ -81,12 +83,14 @@
               alt="Another section of a website with different headlines on immigration.">
           </div>
         </div>
-        <div class=" blurb">
-          <p>What if we could hear from immigrant and refugee communities instead?</p>
+        <div class="blurb">
+          <p>Remembering and retelling oral histories are essential for immigrants, refugees, asylum seekers, and
+            migrants. It's how traditions, culture, and experience are passed down to each generation.</p>
         </div>
         <div class="blurb">
-          <p>Remembering and retelling oral histories are essential for immigrant and refugee communities. It's
-            how traditions and culture are passed down to each generation.</p>
+          <p>You've already read a little bit of May's story. You'll get to hear the entirety of her experience as a
+            refugee, then as a citizen of the United States.
+          </p>
         </div>
         <div class="blurb may-story">
           <p>"Outside of school, sometimes you still have to help your teacher with farming. We had a deep respect for
@@ -103,9 +107,11 @@
             to do everything by yourself."</p>
         </div>
         <div class="blurb">
-          <p>Each story reveals something about the journey that include struggles and triumphs. Along with May's story,
+          <p>Every story reveals something about the journey that include struggles and triumphs and everything in
+            between. Along with May's story,
             20 other oral histories were
-            analyzed for this project. After removing common stop words like "the", "and", and others, what follows are
+            analyzed for this project. <br><br>After removing common stop words like "the", "and", and others, what
+            follows are
             the top 100 words most frequently mentioned in all the
             stories.</p>
         </div>
@@ -618,8 +624,8 @@
           </svg>
         </div>
         <div class="blurb">
-          <p>People, time, family, and children are just a few of the most frequently mentioned words
-            in their stories.</p>
+          <p>Altogether, people, time, family, and children are just a few of the most frequently mentioned words
+            in their stories.<br><br>Seen side by side, May's story highlights many of the same kinds of words.</p>
         </div>
         <div class="frequency-treemap">
           <div class="img-container">
@@ -630,9 +636,6 @@
             <p>May's Most Frequently Used Words</p>
             <img src="./assets/mom_treemap.png" alt="">
           </div>
-        </div>
-        <div class="blurb">
-          <p>May's story is....</p>
         </div>
 
       </article>
@@ -645,29 +648,42 @@
           <p>Like any story, oral histories have positive and negative elements that comprise the
             whole.</p>
           <br>
-          <p>The words used to describe their experiences were passed through a set of sentiment lexicons. The AFINN
-            lexicon assigns a word a rating between -5 and 5, indicating the intensity of a negative or positive
-            sentiment.</p>
+          <p>All the oral histories were passed through a set of sentiment lexicons. The first is a lexicon that assigns
+            each word a rating between -5 and 5, indicating the intensity of a negative or positive sentiment.</p>
         </div>
         <div class="blurb">
-          <p>Some oral histories were a little shorter than others, but the words used to describe
-            their experiences offer insight into their world.</p>
+          <p>Explore the words and sentiment values with the chart below. You'll notice that there are
+            many words used just once.</p>
+        </div>
+      </article>
+      <div id="story-1-data-container" class="sticky-container plotly-facet">
+        <div class="graph-instructions">
+          <p>Double-click on a number on the legend to highlight the frequency of the word.</p>
+        </div>
+        <br>
+        <p class="plotly-facet-title">Word Sentiment Values</p>
+        <iframe src="./components/plotly1.html" frameborder="0"></iframe>
+      </div>
+    </section>
+
+    <section class="story-element story-1-avg">
+      <article>
+        <div class="blurb">
+          <p>Each person was given an average sentiment score.</p>
         </div>
         <div class="blurb">
-          <p>When accounting for the stories as a whole, each person was given an average sentiment score.</p>
-        </div>
-        <div class="blurb">
-          <p>**ADD average sentiment scores **</p>
-        </div>
-        <div class="blurb">
-          <p>All together, the average sentiment for all the stories combined is<b> -0.035</b>; a slightly
+          <p>All together, the average word sentiment for all the stories combined is<span
+              class="avg-inner"><b>-0.04</b></span>; a slightly
             negative sentiment, but essentially neutral overall.
           </p>
         </div>
+        <div class="blurb">
+          <p>The average sentiment score for May's story is <span class="may-story-inner"><b>0</b></span>.</p>
+        </div>
       </article>
 
-      <div id="story-1-data-container" class="sticky-container plotly-facet">
-        <iframe src="./components/plotly1.html" frameborder="0"></iframe>
+      <div class="sticky-container plotly-facet-static">
+        <img src="./assets/sentiment_avg_scores.png" alt="Chart of word sentiment values with their average scores.">
       </div>
     </section>
 
@@ -743,7 +759,7 @@
             ex nihil ipsum sequi fugiat perspiciatis expedita voluptate aspernatur, non ut fugit facilis cumque!</p>
         </div>
       </article>
-      <div class="constellation-instructions">
+      <div class="constellation-instructions graph-instructions">
         <p>Scroll inside to zoom in on word pairs.</p>
         <p>You can click and drag the nodes to focus in on different words.</p>
       </div>

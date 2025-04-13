@@ -21,15 +21,25 @@ scroller
     let el = response.element;
     el.classList.add("active");
 
-    /*if(el.parentElement.className == "story-1-stepper") {
+    if(el.className.includes("testing1")) {
       let container = document.querySelector("#story-1-data-container");
 
-      container.style.backgroundColor = "purple";
-    }*/
+      container.style.border = "4px solid purple";
+      container.appendChild(image);
+    }
   })
   .onStepExit((response) => {
     let el = response.element;
     el.classList.remove("active");
+
+    if(el.className.includes("testing1")) {
+      let container = document.querySelector("#story-1-data-container");
+      console.log("REMOVED!");
+      console.log(container);
+
+
+      container.style.border = "none";
+    }
   })
 
 console.log("Hi. I work!")

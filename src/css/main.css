@@ -8,6 +8,7 @@
   --blue-grey: #476284;
   --pink: #e53598;
   --yellow: #e7c737;
+  --light-green: #80d99c;
 }
 *,
 *::before,
@@ -96,6 +97,10 @@ p {
   padding: 2rem;
   box-shadow: inset 0 0 0 2px lightgrey;
 }
+.may-story-inner {
+  background: var(--light-green);
+  padding: .25rem;
+}
 .storycloth-container {
   position: relative;
 
@@ -105,11 +110,6 @@ p {
     right: 1rem;
     width: 240px;
   }
-}
-.story-1{
-  position: relative;
-  display: flex;
-  gap: 1rem;
 }
 #story-1-data-container,
 #story-2-data-container,
@@ -124,6 +124,9 @@ p {
   img {
     width: 100%;
   }
+}
+.plotly-facet {
+  height: 90vh;
 }
 .headlines {
 
@@ -145,6 +148,33 @@ p {
 .frequency-treemap {
   display: flex;
   gap: 2rem;
+}
+.plotly-facet-title {
+  background: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem 0 .5rem 1.75rem;
+}
+.graph-instructions {
+text-align: center;
+}
+.plotly-facet-static {
+  max-width: 900px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+  }
+}
+.story-1-avg{
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}
+.avg-inner {
+  background: #557cb5fe;
+  color: black;
+  padding: .25rem;
 }
 .story-3 {
   background: #171436;
