@@ -167,3 +167,8 @@ p {
     margin: -4rem;
     padding: 4rem;
 }
+.ending-intro {
+  h2, p {
+    color: white;
+  }
+}
