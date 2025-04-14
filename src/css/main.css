@@ -4,10 +4,12 @@
   --primary-green: #324a36;
   --background-main: #efefef;
   --primary-purple: #171436;
+  --light-purple: #9962d8;
   --blue: #375c87;
   --blue-grey: #476284;
+  --light-blue: #06499a;
   --pink: #e53598;
-  --yellow: #e7c737;
+  --yellow: #ffc831;
   --light-green: #80d99c;
 }
 *,
@@ -135,19 +137,10 @@ p {
 .plotly-facet {
   height: 90vh;
 }
-.headlines {
 
-  .headline-img-container {
-    max-width: 600px;
-
-      img {
-        width: 100%;
-        margin: 1rem 0;
-        padding: 0 1rem;
-      }
-  }
-}
 .word-cloud {
+  max-width: 900px;
+  margin: 0 auto;
   svg {
     width: 100%;
   }
@@ -155,6 +148,12 @@ p {
 .frequency-treemap {
   display: flex;
   gap: 2rem;
+
+  .img-container {
+    background-color: white;
+    border: .2rem solid var(--primary-green);
+    padding: .5rem;
+  }
 }
 .plotly-facet-title {
   background: white;
