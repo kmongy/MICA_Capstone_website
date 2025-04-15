@@ -105,7 +105,7 @@
             to do everything by yourself."</p>
         </div>
         <div class="blurb">
-          <p>Every story reveals something about the journey that include struggles, triumphs, and everything in
+          <p>Each story reveals something about the journey that include struggles, triumphs, and everything in
             between. Along with May's story,
             20 other oral histories were
             analyzed for this project. <br><br>After removing common stop words like "the", "and", and others, what
@@ -625,8 +625,9 @@
           </svg>
         </div>
         <div class="blurb">
-          <p>Altogether, people, time, family, and children are just a few of the most frequently mentioned words
-            in their stories.<br><br>Seen side by side, May's story highlights many of the same kinds of words.</p>
+          <p>"People", "Time", "Family", and "children" are just a few of the most frequently mentioned words
+            in their stories.<br><br>Seen side by side, May's story highlights many of the same kinds of words, but also
+            contains words unique to her.</p>
         </div>
         <div class="frequency-treemap">
           <div class="img-container">
@@ -645,6 +646,26 @@
       </article>
     </section>
 
+    <section>
+      <article>
+        <div class="blurb may-story">
+          <p>"I remember walking to school with a little can of charcoal to warm our hands during the cold season. We
+            didn't have
+            lunch at school. You'd have to walk all the way back home or if you had the means to pack lunch, you'd do
+            that. When you
+            got to school, you'd leave that can next to you.
+            <br><br>There were these rules in place where your nails couldn't
+            be too long.
+            If it was, your hands would be hit. For all the school subjects, we had to memorize or write it down in our
+            notebooks.
+            We didn't have books to bring home. If the teacher asked, we had to be ready to respond with what we
+            memorized. That's
+            how we got credit. We memorized so much that there are some things I still remember to this day."
+          </p>
+        </div>
+      </article>
+    </section>
+
     <h2>Sentiment</h2>
     <section class="story-1 story-element">
       <article>
@@ -655,13 +676,12 @@
           <p>All the oral histories were passed through a set of sentiment lexicons. The first is a lexicon that assigns
             each word a rating between -5 and 5, indicating the intensity of a negative or positive sentiment.</p>
         </div>
-        <div class="blurb">
-          <p>Explore the words and sentiment values with the chart below. Each box represents a different person's oral
-            history.</p>
-        </div>
       </article>
 
       <div class="graph-instructions">
+        <p>Explore the words and sentiment values with the chart below. Each box represents a different person's oral
+          history.</p>
+        <br>
         <p>A single click on a number on the legend will highlight or remove the word frequency from the chart.</p>
         <p>Double-click on a number to highlight a word frequency or to reset the chart.</p>
       </div>
@@ -692,44 +712,6 @@
       </div>
     </section>
 
-    <section>
-      <article>
-        <div class="blurb may-story">
-          <p>"I remember walking to school with a little can of charcoal to warm our hands during the cold season. We
-            didn't have
-            lunch at school. You'd have to walk all the way back home or if you had the means to pack lunch, you'd do
-            that. When you
-            got to school, you'd leave that can next to you.
-            <br><br>There were these rules in place where your nails couldn't
-            be too long.
-            If it was, your hands would be hit. For all the school subjects, we had to memorize or write it down in our
-            notebooks.
-            We didn't have books to bring home. If the teacher asked, we had to be ready to respond with what we
-            memorized. That's
-            how we got credit. We memorized so much that there are some things I still remember to this day."
-          </p>
-        </div>
-      </article>
-    </section>
-
-    <h2>Emotional Sentiment</h2>
-    <section class="story-2 story-element">
-      <article>
-        <div class="blurb">
-          <p>Using a different lexicon, words from the oral histories were categorized into different emotions:<br><br>
-            anger, fear, anticipation,
-            trust,
-            surprise, sadness, joy, and disgust.</p>
-        </div>
-        <div class="blurb">
-          <p>The "trust" category accounted for a lot of the emotional sentiment for all the oral histories.</p>
-        </div>
-      </article>
-
-      <div id="story-2-data-container" class="sticky-container">
-        <iframe src="./components/plotly2.html" frameborder="0"></iframe>
-      </div>
-    </section>
     <div class="blurb may-story">
       <p>"It was during the fourth month in 1975 when I remember Saigon fell to the communist forces. The next month,
         the Pathet
@@ -740,6 +722,25 @@
         re-education camps. We knew people who were captured, tortured, and died."</p>
     </div>
 
+    <h2>Emotional Sentiment</h2>
+    <section class="story-2 story-element">
+      <article>
+        <div class="blurb">
+          <p>Using a different lexicon, words from the oral histories were categorized into positive and negative
+            emotions.</p>
+
+          <p> anger, fear, anticipation, trust, surprise, sadness, joy, and disgust.</p>
+        </div>
+        <div class="blurb">
+          <p>The "trust" category accounted for a lot of the emotional sentiment for all the oral histories.</p>
+        </div>
+      </article>
+
+      <div id="story-2-data-container" class="sticky-container">
+        <iframe src="./components/plotly2.html" frameborder="0"></iframe>
+      </div>
+    </section>
+
     <section class="story-3 story-element">
       <div class="story-3-intro">
         <h2>A Constellation of Words</h2>
@@ -748,15 +749,19 @@
       </div>
       <article>
         <div class="blurb may-story">
-          <p>"When we got to Vientiane, my sister went to find a person to take us across the MeKong river to get to
-            Thailand. She
-            found a person who could take us, but it was to be at 2am in the morning. Since this was during the rainy
-            season, it was
-            raining a lot. When we got to the boat, the boat wasn't very big. At first, when my sister told the person
-            about getting
-            us across, she said there were only 8 people. But when it came time to go, we had 2 more family members who
+          <p>"The United States did send an aircraft to transport our people. The first aircrafts were only for the
+            generals and
+            leaders that had direct contact with the CIA. When those aircrafts landed, we all tried to get on board,
+            even though we
+            knew it couldn't carry all of us. If you had a father, it was easier for you and your family to get on.
+            <br><br>
+            When all the Hmong leaders were airlifted off, we never saw another plane come back to get the rest of us.
+            This was
+            when we knew we had to find our own way out to Thailand from where we were in LongCheng. LongCheng was a
+            village that
+            became an army base. We were scared that the communists would come here first to kill us. That's why we all
             wanted to
-            come with us too..."
+            leave so badly to Thailand."
           </p>
         </div>
         <div class="blurb">
@@ -778,13 +783,39 @@
         <iframe src="./components/d3networkgraph.html" frameborder="0"></iframe>
       </div>
     </section>
-    <br>
+
+
     <section class="ending">
+
       <div class="ending-intro">
         <h2>The Whole Story</h2>
         <p>We've read the words. We've seen the different sentiment. We also were able to see some connections between
           many of the words.</p>
         <p>The Hmong story cloth is one way to intentionally remember history.</p>
+      </div>
+
+      <div class="blurb may-story">
+        <p>"LongCheng became a ghost town pretty quick. It was so quiet. All those who didn't get on the plane quickly
+          left to
+          other villages, away from LongCheng. All those that stayed were those who were orphaned or were without a
+          father
+          to
+          lead. It was such a hard and sad time for us. Everyone was scared. Especially when it came to night time.
+          Everything was
+          left behind. All the animals, like the chickens and the pigs were just left wandering. What you wanted the
+          most
+          was to
+          leave this place.
+          <br><br>We were one of the families that were left here. My father died in 1970. It was my mother
+          with
+          her 7
+          children. My older sister was in school, so it was me and other sister, who were preteens who were helping
+          with
+          everything. We didn't know what to do to get out. My mother was not educated. She didn't even know the Laotian
+          language.
+          At that time, you were supposed to know that language. We just stayed and were scared. It wasn't until much
+          later when my older sister came back to find us in order for us to leave."
+        </p>
       </div>
 
       <article>
