@@ -155,15 +155,16 @@ p {
     padding: .5rem;
   }
 }
+.context {
+  max-width: 55%;
+}
 .plotly-facet-title {
   background: white;
   font-weight: 700;
   font-size: 1.5rem;
   padding: 1rem 0 .5rem 1.75rem;
 }
-.graph-instructions {
-text-align: center;
-}
+
 .plotly-facet-static {
   max-width: 900px;
   margin: 0 auto;
