@@ -21,19 +21,22 @@ scroller
     let el = response.element;
     el.classList.add("active");
 
-    if(el.className.includes("testing1")) {
-      let container = document.querySelector("#story-1-data-container");
+    if(el.className.includes("testing123")) {
+      let container = document.querySelector(".testing123");
+      let newImage = document.querySelector(".testing1234")
+
+      console.log(container);
 
       container.style.border = "4px solid purple";
-      container.appendChild(image);
+      newImage.src = "./capstone-website/src/assets/house1.png";
     }
   })
   .onStepExit((response) => {
     let el = response.element;
     el.classList.remove("active");
 
-    if(el.className.includes("testing1")) {
-      let container = document.querySelector("#story-1-data-container");
+    if(el.className.includes("testing123")) {
+      let container = document.querySelector(".testing123");
       console.log("REMOVED!");
       console.log(container);
 

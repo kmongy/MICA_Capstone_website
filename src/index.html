@@ -661,10 +661,9 @@
     <h2>Sentiment</h2>
     <section class="story-1 story-element">
       <div class="context">
-        <p>Each oral history includes both positive and negative sentiments. Both good and bad times were remembered
-          along with descriptions of how one felt.</p>
+        <p>Positive and negative feelings are both capture in the retelling of oral histories.</p>
         <br>
-        <p>To get a sense of the feelings, all the oral histories were passed through a set of sentiment lexicons.
+        <p>To get a sense of the sentiment, all the oral histories were passed through a set of sentiment lexicons.
           The lexicons are based on English words created through various means of crowdsourcing and only
           based on what are called 'unigrams'—a single word.</p>
         <br>
@@ -674,28 +673,34 @@
       </div>
 
       <div class="sticky-container">
-        <img src="./assets/storycloth1.png" alt="">
+        <img class="testing1234" src="./assets/storycloth1.png" alt="">
       </div>
 
       <article>
+        <div class="blurb">
+          <p>You can compare the frequency and sentiment values of the four stories below.</p>
+        </div>
+        <div class="blurb testing123">
+          <p>May's story is highlighted by the light purple colored
+            square.</p>
+        </div>
 
       </article>
-      <div class="graph-instructions">
-        <p>Each box represents a different person's oral
-          history.</p>
-      </div>
 
       <div id="story-1-data-container" class="sticky-container plotly-facet">
         <br>
         <p class="plotly-facet-title">Word Sentiment Values</p>
+        <p class="plotly-facet-subtitle">Word frequency and sentiment values within each person's oral history.
+        </p>
         <iframe src="./components/plotly1.html" frameborder="0"></iframe>
+        <span class="may-highlight"></span>
       </div>
     </section>
 
     <section class="story-element story-1-avg">
       <article>
         <div class="blurb">
-          <p>An average sentiment score was calculated for each person.</p>
+          <p>Average sentiment scores were calculated for each oral history.</p>
         </div>
         <div class="blurb">
           <p>All together, the average sentiment score is <span class="avg-inner"><b>-0.04</b></span>.
