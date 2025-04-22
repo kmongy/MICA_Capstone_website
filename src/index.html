@@ -30,6 +30,11 @@
           <p class="introduction-scroll">May was a refugee from Thailand.</p>
         </div>
 
+        <div class="blurb">
+          <p class="introduction-scroll">Read along as she retells her story from Laos and Thailand to the United
+            States.</p>
+        </div>
+
         <div class="blurb may-story">
           <p>"I was born in Laos in 1962. I have 11 siblings. I'm the fifth oldest child in my family. My two older
             brothers passed away when they were only four and six years old. I also had two sisters after me that passed
@@ -63,7 +68,10 @@
           <p>Remembering and retelling oral histories are essential for immigrants, refugees, asylum seekers, and
             migrants. It's how traditions, culture, and experience are passed down to each generation.</p>
         </div>
-
+        <div class="blurb">
+          <p>By retelling stories, it reminds the community of where one comes from and where one might go, holding
+            together both the past and the future.</p>
+        </div>
       </article>
     </section>
 
@@ -92,7 +100,8 @@
         <div class="blurb">
           <p>Each story reveals struggles, triumphs, and everything in
             between. Along with May's story, 20 other oral histories were
-            analyzed for this project. <br><br>After removing common stop words like "the", "and", and others, what
+            analyzed for this project. <br><br>After accounting for common stop words like "the", "and", and others,
+            what
             follows are
             the top 100 words most frequently mentioned in all of the
             stories.</p>
@@ -652,10 +661,11 @@
     <h2>Sentiment</h2>
     <section class="story-1 story-element">
       <div class="context">
-        <p>Like any story, oral histories have positive and negative elements that comprise the whole.</p>
+        <p>Each oral history includes both positive and negative sentiments. Both good and bad times were remembered
+          along with descriptions of how one felt.</p>
         <br>
-        <p>All the oral histories were passed through a set of sentiment lexicons. However, it's important to note that
-          the lexicons used here are based on English words created through various means of crowdsourcing, and only
+        <p>To get a sense of the feelings, all the oral histories were passed through a set of sentiment lexicons.
+          The lexicons are based on English words created through various means of crowdsourcing and only
           based on what are called 'unigrams'—a single word.</p>
         <br>
         <p>The first lexicon used for the oral histories is the <a
@@ -671,11 +681,8 @@
 
       </article>
       <div class="graph-instructions">
-        <p>Explore the words and sentiment values with the charts below. Each box represents a different person's oral
+        <p>Each box represents a different person's oral
           history.</p>
-        <br>
-        <p>A single click on a number on the legend will highlight or remove the word frequency from the chart.</p>
-        <p>Double-click on a number to highlight a word frequency or to reset the chart.</p>
       </div>
 
       <div id="story-1-data-container" class="sticky-container plotly-facet">
@@ -720,59 +727,61 @@
 
     <h2>Emotional Sentiment</h2>
     <section class="story-2 story-element">
-      <article>
-        <div class="blurb">
-          <p>Using a different lexicon, words from the oral histories were categorized into positive and negative
-            emotions.</p>
+      <div class="context">
+        <p>Using a different lexicon, words from the oral histories were categorized into positive and negative
+          emotions.</p>
+        <br>
+        <p>The emotions include: anger, fear, anticipation, trust, surprise, sadness, joy, and disgust.</p>
+        <br>
+        <p>Words in the oral history were matched and categorized into one of those emotions.</p>
+      </div>
 
-          <p> anger, fear, anticipation, trust, surprise, sadness, joy, and disgust.</p>
-        </div>
-        <div class="blurb">
-          <p>The "trust" category accounted for a lot of the emotional sentiment for all the oral histories.</p>
-        </div>
-      </article>
 
       <div id="story-2-data-container" class="sticky-container">
         <iframe src="./components/plotly2.html" frameborder="0"></iframe>
       </div>
+
+      <div class="blurb may-story">
+        <p>"The United States did send an aircraft to transport our people. The first aircrafts were only for the
+          generals and
+          leaders that had direct contact with the CIA. When those aircrafts landed, we all tried to get on board,
+          even though we
+          knew it couldn't carry all of us. If you had a father, it was easier for you and your family to get on.
+          <br><br>
+          When all the Hmong leaders were airlifted off, we never saw another plane come back to get the rest of us.
+          This was
+          when we knew we had to find our own way out to Thailand from where we were in LongCheng. LongCheng was a
+          village that
+          became an army base. We were scared that the communists would come here first to kill us. That's why we all
+          wanted to
+          leave so badly to Thailand."
+        </p>
+      </div>
     </section>
 
+    <h2>A Constellation of Words</h2>
     <section class="story-3 story-element">
-      <div class="story-3-intro">
-        <h2>A Constellation of Words</h2>
-        <p>Words are connected to each other, creating a constellation of meaning. Each oral history is unique, but
-          connected in words and often in the actual experience.</p>
+      <div class="context">
+        <p>The different sentiment lexicons revealed different positive and negative emotions based on single words.
+          <br><br>However, it doesn't reveal the whole story. Words have connections and meanings associated with those
+          connections.
+        </p>
       </div>
+
       <article>
-        <div class="blurb may-story">
-          <p>"The United States did send an aircraft to transport our people. The first aircrafts were only for the
-            generals and
-            leaders that had direct contact with the CIA. When those aircrafts landed, we all tried to get on board,
-            even though we
-            knew it couldn't carry all of us. If you had a father, it was easier for you and your family to get on.
-            <br><br>
-            When all the Hmong leaders were airlifted off, we never saw another plane come back to get the rest of us.
-            This was
-            when we knew we had to find our own way out to Thailand from where we were in LongCheng. LongCheng was a
-            village that
-            became an army base. We were scared that the communists would come here first to kill us. That's why we all
-            wanted to
-            leave so badly to Thailand."
-          </p>
+        <div class="blurb">
+          <p>The words used to describe one's experience are like a constellation, pointing to a north star revealing
+            centers of thought.</p>
         </div>
         <div class="blurb">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt velit neque deserunt? Soluta, rem
-            dignissimos! Sint eius placeat minus porro minima aperiam quod qui. Omnis perspiciatis beatae rerum maiores.
-          </p>
-        </div>
-        <div class="blurb">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo animi placeat, sed eos tempore ea
-            ex nihil ipsum sequi fugiat perspiciatis expedita voluptate aspernatur, non ut fugit facilis cumque!</p>
+          <p>Some words are off on their own, while other words have many interconnections creating little worlds that
+            require some investigation.</p>
         </div>
       </article>
+
       <div class="constellation-instructions graph-instructions">
         <p>Scroll inside to zoom in on word pairs.</p>
-        <p>You can click and drag the nodes to focus in on different words.</p>
+        <p>You can click and drag the nodes to focus in on different word pairings.</p>
       </div>
       <br>
       <div id="story-3-data-container" class="story-element constellation">
@@ -782,11 +791,14 @@
 
 
     <section class="ending">
-
-      <div class="ending-intro">
+      <div class="ending-intro context">
         <h2>The Whole Story</h2>
-        <p>We've read the words. We've seen the different sentiment. We also were able to see some connections between
-          many of the words.</p>
+        <p>You've read some of May's story. You've seen the different sentiments attached to her words. You also made
+          some connections between many of those words.</p>
+        <br>
+        <p>The whole story is meant to be remembered and passed on. Sometimes though, it's helpful to have some kind of
+          device to help with remembering.</p>
+        <br>
         <p>The Hmong story cloth is one way to intentionally remember history.</p>
       </div>
 

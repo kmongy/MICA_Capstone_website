@@ -195,6 +195,7 @@ background: #171436;
   text-align: center;
 }
 .constellation {
+  border: 1px solid lightgrey;
   max-width: 65rem;
   height: 70vh;
 }
