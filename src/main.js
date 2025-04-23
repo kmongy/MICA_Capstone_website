@@ -1,12 +1,5 @@
 import scrollama from "scrollama";
 
-let body = document.querySelector("body");
-let scrolling = body.querySelector(".story-element");
-let sticky = scrolling.querySelector(".sticky-container");
-let article = scrolling.querySelector("article");
-let blurbs = article.querySelectorAll(".blurb");
-
-
 const scroller  = scrollama();
 
 scroller
@@ -25,10 +18,12 @@ scroller
       let container = document.querySelector(".testing123");
       let newImage = document.querySelector(".testing1234")
 
-      console.log(container);
+      console.log(newImage);
 
       container.style.border = "4px solid purple";
-      newImage.src = "./capstone-website/src/assets/house1.png";
+      newImage.src = "./assets/house1.png";
+
+      console.log(newImage);
     }
   })
   .onStepExit((response) => {
