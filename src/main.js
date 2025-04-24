@@ -21,7 +21,7 @@ scroller
       console.log(newImage);
 
       container.style.border = "4px solid purple";
-      newImage.src = "./assets/house1.png";
+      newImage.src = new URL("./assets/house1.png", import.meta.url);
 
       console.log(newImage);
     }
@@ -32,9 +32,11 @@ scroller
 
     if(el.className.includes("testing123")) {
       let container = document.querySelector(".testing123");
+      let newImage = document.querySelector(".testing1234")
       console.log("REMOVED!");
       console.log(container);
 
+      newImage.src = new URL("./assets/storycloth1.png", import.meta.url);
 
       container.style.border = "none";
     }
