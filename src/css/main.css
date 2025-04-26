@@ -64,6 +64,26 @@ p {
     text-align: center;
   }
 }
+.landing-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 500px;
+
+  img {
+    width: 100%;
+  }
+}
+.remember-stories,
+.remember-words {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+.context {
+  max-width: 50%;
+}
 .story-element {
   margin-bottom: 12rem;
 }
@@ -174,9 +194,6 @@ p {
     margin: 1rem 0 1.5rem 0;
   }
 }
-.context {
-  max-width: 55%;
-}
 .plotly-facet-title {
   background: white;
   font-weight: 700;
@@ -214,6 +231,14 @@ p {
   background: #557cb5fe;
   color: black;
   padding: .25rem;
+}
+.nrc-svg {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  svg {
+    width: 100%;
+  }
 }
 .story-3 {
 background: #171436;

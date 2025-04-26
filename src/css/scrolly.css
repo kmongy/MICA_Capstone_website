@@ -12,9 +12,6 @@ article {
   width: 100%;
   height: 75vh;
 }
-.spacer {
-  height: 400px;
-}
 .blurb {
   background-color: #fff;
   border: .2rem solid var(--primary-green);
