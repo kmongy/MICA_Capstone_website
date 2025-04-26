@@ -76,7 +76,9 @@ p {
 }
 .remember-stories,
 .remember-words,
-.remember-feelings {
+.remember-feelings,
+.remember-emotions,
+.remember-connections {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -156,8 +158,8 @@ p {
 #story-1-data-container,
 #story-2-data-container,
 #story-3-data-container {
-  max-width: 1800px;
-  margin-bottom: 24rem;
+  max-width: 1000px;
+  margin: 0 auto 20rem auto;
 
   iframe {
     width: 100%;
@@ -218,9 +220,9 @@ p {
 .may-highlight {
   position: absolute;
   bottom: -5.9rem;
-  right: 5rem;
-  width: 44%;
-  height: 310px;
+  right: 12rem;
+  width: 35%;
+  height: 350px;
   background: rgba(153, 98, 216, 0.1);
   pointer-events: none;
 }
@@ -234,6 +236,9 @@ p {
   color: black;
   padding: .25rem;
 }
+.may-story-inner {
+  background: red;
+}
 .nrc-svg {
   max-width: 1000px;
   margin: 0 auto;
@@ -242,9 +247,9 @@ p {
     width: 100%;
   }
 }
-.story-3 {
+.constellation-container {
 background: #171436;
-  background: linear-gradient(0deg, rgba(23, 20, 54, 1) 23%, rgba(55, 92, 135, 1) 55%, rgba(239, 239, 239, 1) 88%);
+  background: linear-gradient(0deg, rgba(23, 20, 54, 1) 35%, rgba(55, 92, 135, 1) 70%, rgba(239, 239, 239, 1) 92%);
   padding: 4rem;
   margin: -4rem;
 }
