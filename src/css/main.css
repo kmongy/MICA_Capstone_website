@@ -75,7 +75,8 @@ p {
   }
 }
 .remember-stories,
-.remember-words {
+.remember-words,
+.remember-feelings {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -88,7 +89,7 @@ p {
   margin-bottom: 12rem;
 }
 .img-container {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 
   img {
@@ -97,7 +98,6 @@ p {
 }
 .may-intro-container article .blurb {
   width: fit-content;
-  margin-bottom: 30rem;
 }
 .blurb .introduction-scroll {
   text-align: center;
@@ -106,7 +106,7 @@ p {
   position: absolute;
   top: 2rem;
   right: 1rem;
-  max-width: 320px;
+  max-width: 300px;
 
   img {
     width: 100%;
@@ -117,25 +117,23 @@ p {
   background-color: var(--blue);
   color: white;
   padding: 2rem;
+  margin-bottom: 10rem;
   box-shadow: inset 0 0 0 2px lightgrey;
 
   p {
     font-size: 1rem;
   }
 }
-.may-story-inner {
-  background: var(--light-green);
-  padding: .25rem;
-}
+
 .may-story-container {
   position: relative;
 }
 
 .may-story-visual-cue {
   position: absolute;
-  max-width: 200px;
-  bottom: -5rem;
-  left: -12rem;
+  max-width: 90px;
+  bottom: -4rem;
+  left: -10rem;
 }
 .storycloth-container {
   position: relative;
@@ -159,6 +157,7 @@ p {
 #story-2-data-container,
 #story-3-data-container {
   max-width: 1800px;
+  margin-bottom: 24rem;
 
   iframe {
     width: 100%;
@@ -212,6 +211,9 @@ p {
   img {
     width: 100%;
   }
+}
+.data-container {
+  position: relative;
 }
 .may-highlight {
   position: absolute;
