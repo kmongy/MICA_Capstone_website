@@ -2,7 +2,8 @@
 
 :root {
   --primary-green: #324a36;
-  --background-main: #efefef;
+  --background-main: white;
+  /*--background-main: #efefef;*/
   --primary-purple: #171436;
   --light-purple: #9962d8;
   --blue: #375c87;
@@ -137,23 +138,6 @@ p {
   bottom: -4rem;
   left: -10rem;
 }
-.storycloth-container {
-  position: relative;
-
-  .storycloth1 {
-    position: absolute;
-    top: 2rem;
-    right: 1rem;
-    width: 240px;
-  }
-
-  .storycloth2 {
-    position: absolute;
-    top: 2rem;
-    right: 1rem;
-    width: 300px;
-  }
-}
 
 #story-1-data-container,
 #story-2-data-container,
@@ -171,7 +155,7 @@ p {
   }
 }
 .plotly-facet {
-  height: 90vh;
+  height: 80vh;
 }
 
 .word-cloud {
@@ -186,6 +170,7 @@ p {
   gap: 2rem;
 
   .img-container {
+    background: white;
     text-align: center;
     border: .2rem solid var(--primary-green);
     padding: .5rem;
@@ -217,19 +202,12 @@ p {
 .data-container {
   position: relative;
 }
-.may-highlight {
-  position: absolute;
-  bottom: -5.9rem;
-  right: 12rem;
-  width: 35%;
-  height: 350px;
-  background: rgba(153, 98, 216, 0.1);
-  pointer-events: none;
-}
-.story-1-avg{
+
+.story-1-avg,
+.plotly-bar {
   position: relative;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .avg-inner {
   background: #557cb5fe;
@@ -238,6 +216,18 @@ p {
 }
 .may-story-inner {
   background: red;
+}
+.plotly-bar {
+  max-width: 1000px;
+  margin: 0 auto 16rem auto;
+}
+.may-bar-chart-container {
+  height: 550px;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 .nrc-svg {
   max-width: 1000px;
@@ -248,8 +238,8 @@ p {
   }
 }
 .constellation-container {
-background: #171436;
-  background: linear-gradient(0deg, rgba(23, 20, 54, 1) 35%, rgba(55, 92, 135, 1) 70%, rgba(239, 239, 239, 1) 92%);
+  background: #171436;
+  background: linear-gradient(0deg, rgba(23, 20, 54, 1) 35%, rgba(55, 92, 135, 1) 70%, rgba(255, 255, 255, 1) 92%);
   padding: 4rem;
   margin: -4rem;
 }

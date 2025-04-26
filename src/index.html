@@ -626,33 +626,30 @@
           </g>
         </svg>
       </div>
-
-      <article>
-        <div class="blurb">
-          <p>Seen side by side, May's story highlights some of the same words, while including words unique
-            to her experience.</p>
-        </div>
-      </article>
     </section>
 
 
-    <div class="img-container mangoTree">
-      <img src="./assets/mangotree.png" alt="">
-    </div>
+    <section>
+      <div class="img-container mangoTree sticky-container">
+        <img src="./assets/mangotree.png" alt="">
+      </div>
 
-    <div class="frequency-treemap">
-      <div class="img-container">
-        <p>Most Frequently Used Words for All Oral Histories</p>
-        <br>
-        <img src="./assets/leavesMap.png"
-          alt="A treemap chart the top ten most frequently used words. The word 'people' is used the most at 446 times. 'Time' is used 221 times. 'Family', 179 times. 'School', 163 times. 'Country', 160 times. 'Home', 136 times. 'Children', 135 times. 'Life', 118 times. 'Community', 119 times. 'Learn', 104 times.">
-      </div>
-      <div class="img-container">
-        <p>May's Most Frequently Used Words</p>
-        <br>
-        <img src="./assets/leavesMayMap.png" alt="">
-      </div>
-    </div>
+      <article>
+        <div class=".blurb frequency-treemap">
+          <div class="img-container">
+            <p>Most Frequently Used Words for All Oral Histories</p>
+            <br>
+            <img src="./assets/leavesMap.png"
+              alt="A treemap chart the top ten most frequently used words. The word 'people' is used the most at 446 times. 'Time' is used 221 times. 'Family', 179 times. 'School', 163 times. 'Country', 160 times. 'Home', 136 times. 'Children', 135 times. 'Life', 118 times. 'Community', 119 times. 'Learn', 104 times.">
+          </div>
+          <div class="img-container">
+            <p>May's Most Frequently Used Words</p>
+            <br>
+            <img src="./assets/leavesMayMap.png" alt="">
+          </div>
+        </div>
+      </article>
+    </section>
 
     <section>
       <article>
@@ -710,17 +707,40 @@
       </div>
     </section>
 
+    <section class="plotly-bar">
+      <div class="plotly-bar-container sticky-container">
+        <br>
+        <p class="plotly-facet-title">May's Sentiment Values</p>
+        <p class="plotly-facet-subtitle">Positive and negative word sentiment values with corresponding words and
+          frequency.
+        </p>
+
+        <div class="may-bar-chart-container">
+          <iframe src="./components/may_afinn_bar.html" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <article>
+        <div class="blurb">
+          <p>In total, May has 38 matching lexicon words in her story.</p>
+        </div>
+        <div class="blurb">
+          <p>A majority of her sentiment values are in the slightly negative "-1" category.</p>
+        </div>
+        <div class="blurb">
+          <p>May's average sentiment score is 0.</p>
+        </div>
+      </article>
+    </section>
+
     <section class="story-element story-1-avg">
       <article>
         <div class="blurb">
-          <p>Average sentiment scores were calculated for each oral history.</p>
+          <p>Individual average sentiment scores were calculated for all the oral histories.</p>
         </div>
         <div class="blurb">
           <p>All together, the average sentiment score is <span class="avg-inner"><b>-0.04</b></span>.
           </p>
-        </div>
-        <div class="blurb">
-          <p>The average sentiment score for May's story is <span class="may-story-inner"><b>0</b></span>.</p>
         </div>
         <div class="blurb">
           <p>All of the stories were neither very negative or positive in sentiment based on the AFINN lexicon. In fact,
