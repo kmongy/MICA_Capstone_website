@@ -79,7 +79,8 @@ p {
 .remember-words,
 .remember-feelings,
 .remember-emotions,
-.remember-connections {
+.remember-connections,
+.remember-history {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -204,7 +205,8 @@ p {
 }
 
 .story-1-avg,
-.plotly-bar {
+.plotly-bar,
+.may-bubble-chart {
   position: relative;
   display: flex;
   gap: 1.5rem;
@@ -229,7 +231,12 @@ p {
     height: 100%;
   }
 }
-.nrc-svg {
+.emotional-sentiment-all {
+  margin-bottom: 16rem;
+}
+
+.nrc-svg,
+.may-nrc-svg {
   max-width: 900px;
   margin: 0 auto;
 
@@ -254,7 +261,7 @@ p {
 }
 .ending {
   background: #171436;
-  background: linear-gradient(180deg, rgba(23, 20, 54, 1) 23%, rgba(55, 92, 135, 1) 55%, rgba(239, 239, 239, 1) 88%);
+  background: linear-gradient(180deg, rgba(23, 20, 54, 1) 23%, rgba(55, 92, 135, 1) 55%, rgb(255, 255, 255) 88%);
   margin: -4rem;
   padding: 4rem;
 }

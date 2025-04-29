@@ -30,6 +30,11 @@ article {
     width: 100%;
   }
 }
+.blurb.hidden {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
 .blurb.active {
   border: .2rem solid var(--blue);
 }
