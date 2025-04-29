@@ -14,32 +14,18 @@ scroller
     let el = response.element;
     el.classList.add("active");
 
-    if(el.className.includes("testing123")) {
-      let container = document.querySelector(".testing123");
-      let newImage = document.querySelector(".testing1234")
+    console.log('HI. INSIDE')
 
-      console.log(newImage);
+    if(el.className.includes("lexicon-match")) {
+      let container = document.querySelector(".may-bubble-nrc");
 
-      container.style.border = "4px solid purple";
-      newImage.src = new URL("./assets/house1.png", import.meta.url);
-
-      console.log(newImage);
+      container.src = new URL("./components/leave-common-word.svg", import.meta.url);
+      console.log(container);
     }
   })
   .onStepExit((response) => {
     let el = response.element;
     el.classList.remove("active");
-
-    if(el.className.includes("testing123")) {
-      let container = document.querySelector(".testing123");
-      let newImage = document.querySelector(".testing1234")
-      console.log("REMOVED!");
-      console.log(container);
-
-      newImage.src = new URL("./assets/storycloth1.png", import.meta.url);
-
-      container.style.border = "none";
-    }
   })
 
 console.log("Hi. I work!")
