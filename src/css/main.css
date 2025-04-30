@@ -147,7 +147,7 @@ p {
 #story-2-data-container,
 #story-3-data-container {
   max-width: 1000px;
-  margin: 0 auto 20rem auto;
+  margin: 0 auto 10rem auto;
 
   iframe {
     width: 100%;
@@ -216,11 +216,8 @@ p {
 }
 .avg-inner {
   background: #557cb5fe;
-  color: black;
+  color: white;
   padding: .25rem;
-}
-.may-story-inner {
-  background: red;
 }
 .plotly-bar {
   max-width: 1000px;
@@ -237,7 +234,6 @@ p {
 .emotional-sentiment-all {
   margin-bottom: 16rem;
 }
-
 .nrc-svg,
 .may-nrc-svg {
   max-width: 900px;
@@ -246,6 +242,16 @@ p {
   svg {
     width: 100%;
   }
+}
+.nrc-surprise-word {
+  background: #9962d8;
+  color: white;
+  padding: .25rem;
+}
+.nrc-sadness-word {
+  background: #324a36;
+  color: white;
+  padding: .25rem;
 }
 .constellation-container {
   background: #171436;
@@ -272,4 +278,7 @@ p {
   h2, p {
     color: white;
   }
+}
+.ending-storycloth-container {
+  max-width: 800px;
 }
