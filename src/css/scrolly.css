@@ -35,9 +35,7 @@ article {
   border: none;
   box-shadow: none;
 }
-.blurb.active {
-  border: .2rem solid var(--blue);
-}
+
 .blurb.may-story.active {
   border: 2rem solid var(--blue-grey);
   background-color:var(--blue);
