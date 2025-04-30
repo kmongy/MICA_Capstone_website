@@ -3,7 +3,6 @@
 :root {
   --primary-green: #324a36;
   --background-main: white;
-  /*--background-main: #efefef;*/
   --primary-purple: #171436;
   --light-purple: #9962d8;
   --blue: #375c87;
@@ -46,9 +45,6 @@ h1 {
 h2 {
   font-size: 2.5rem;
 }
-section {
-  margin: 2rem 0;
-}
 p {
   margin: 0;
   font-size: 1.2rem;
@@ -83,11 +79,11 @@ p {
 .remember-feelings,
 .remember-emotions,
 .remember-connections,
-.remember-history {
+.remember-history,
+.data-interlude {
   display: flex;
   align-items: center;
   gap: 2rem;
-  height: 100vh;
 }
 .context {
   max-width: 50%;
@@ -215,7 +211,7 @@ p {
   gap: 1.5rem;
 }
 .avg-inner {
-  background: #557cb5fe;
+  background: var(--blue);
   color: white;
   padding: .25rem;
 }

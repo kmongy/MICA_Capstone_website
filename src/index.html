@@ -39,15 +39,16 @@
             migrants. My parents were refugees, and would chuckle through their stories when they tell me about their
             childhood
             adventures, or cry through the sharing of difficult experiences. By retelling their stories, they'd also
-            insert a lesson or two about the difficulties and triumphs of life. In each of their retellings, I learn
-            more
-            about them and more about who
-            I am because of them.</p>
+            insert a lesson or two about the difficulties and triumphs of life.</p>
           <br>
           <p>As they remember and describe their experiences to me, I try to hold on to every word. Remembering and
             retelling stories—histories—is part and parcel of the immigrant life.</p>
           <br>
-          <p>I invite you to remember.</p>
+          <p>As I was listening again to my mother retell her story, I wondered if I could gain some more insight into
+            her life by
+            breaking down her story into its atomic parts and then building back up again—from single words, back to
+            sentences, and then into the full story. I also wondered about the words that were used to describe her
+            experiences and if it would clue me into something I may have missed before.</p>
         </div>
         <div class="img-container">
           <img src="./assets/house1.png" alt="Painting of a house">
@@ -64,11 +65,15 @@
 
       <article>
         <div class="blurb">
-          <p class="introduction-scroll">This is May. She was a refugee from Thailand.</p>
+          <p>In the interest of remembering, you'll get to read a transcription of my mother's story.</p>
         </div>
 
         <div class="blurb">
-          <p class="introduction-scroll">Read along as she retells her story.</p>
+          <p>My mother's name is May, and she was a refugee from Laos.</p>
+        </div>
+
+        <div class="blurb">
+          <p class="introduction-scroll">Read along as she retells her experiences with you.</p>
         </div>
 
         <div class="blurb may-story">
@@ -104,17 +109,20 @@
             between. The words used to describe these experiences may reveal topics or themes that are important to the
             person telling the oral history.</p>
           <br>
-          <p>For this project, I wanted to find out what immigrants, refugees,
-            and migrants were remembering in their stories. I analyzed 21 total oral histories from different
-            immigrant and refugee groups. May's history is part of the analysis and is
-            compared to the other 20 stories. All the words were then separated into single words, amounting to 77,321
-            words total.</p>
+          <p>Including my mother, I wanted to find out what immigrants, refugees,
+            and migrants were remembering in their stories. I analyzed a total of 21 oral histories from different
+            immigrant and refugee groups. All the words were then separated into single words, amounting to 77,321
+            words.</p>
           <br>
-          <p>After accounting for common stop words like "and", "but", "the",
-            and others, the total word count became 20,532 words.
-            What
+          <p>However, not every word needed to be analyzed. So, after accounting for common stop words like "and",
+            "but",
+            "the",
+            and others, the total word count became 20,532 words.</p>
+          <br>
+          <p>What
             follows are
             the top 100 most frequently mentioned words in all 21 oral histories.</p>
+          <br>
         </div>
         <div class="img-container">
           <img src="./assets/storycloth1.png" alt="Painting of a house">
@@ -122,7 +130,6 @@
       </div>
 
       <div class="word-cloud sticky-container">
-        <p class="chart-title">Top 100 Most Frequently Used Words</p>
         <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 835.5 782.53">
           <defs>
@@ -645,7 +652,7 @@
 
     <section class="story-element">
       <div class="img-container mangoTree sticky-container">
-        <img src="./assets/mangotree.png" alt="">
+        <img src="./assets/mangotree.png" alt="Drawing of a mango tree.">
       </div>
 
       <article>
@@ -698,18 +705,18 @@
         <h2>Remembering Feelings</h2>
         <p>Positive and negative feelings are captured in the retelling of oral histories.</p>
         <br>
-        <p>To get a sense of the sentiment, all the oral histories were passed through a set of sentiment lexicons.
+        <p>To get a sense of these feelings, the oral histories were passed through a set of sentiment lexicons.
           The lexicons are based on English words created through various means of crowdsourcing and
           based on what are called 'unigrams'—a single word.</p>
         <br>
         <p>For this section, the oral histories were passed through a lexicon where each word is given a
-          rating between -5 and 5 indicating the intensity of a negative or positive sentiment. Words from the oral
+          rating between -5 and 5 indicating the intensity of a negative or positive sentiment. For example, the word
+          "danger" is given an a score of -2, and the word "opportunity" is given a score of 3.</p>
+        <br>
+        <p>Words from the oral
           histories have to match the words within the lexicon in order to be given an intensity score. You'll notice
           that the chart
-          below does not reach either extreme and only goes from -4 to 4.</p>
-        <br>
-        <p>You can compare the sentiment and frequency values of four different stories below. Each box represents a
-          person's oral history. May's story is the top left box.</p>
+          below does not reach either extreme and goes from -4 to 4.</p>
         <br>
       </div>
       <div class="img-container">
@@ -718,13 +725,27 @@
     </section>
 
     <section class="data-container">
-      <div id="story-1-data-container" class="plotly-facet">
+      <div id="story-1-data-container" class="plotly-facet sticky-container">
         <br>
         <p class="chart-title">The Intensity and Frequency of Words</p>
         <p class="chart-subtitle">Positive and negative word sentiment values within each person's oral history.
         </p>
         <iframe src="./components/plotly1.html" frameborder="0"></iframe>
-        <span class="may-highlight"></span>
+      </div>
+    </section>
+
+    <section class="data-interlude">
+      <div class="img-container">
+        <img src="./assets/storycloth5.png" alt="A drawing of a village with homes and trees.">
+      </div>
+      <div class="context">
+        <p>You'll notice that the words above and below the middle line are pretty even. The intensity levels of the
+          words distributed across the oral histories in this example reveal a relatively neutral tone. I was expecting
+          the words to display more negative sentiment, but was proven wrong about that hunch.</p>
+        <br>
+        <p>What I also didn't anticipate was how many times words were used. A good chunk of the oral histories, as
+          matched with the lexicon, were used only once. This is revealed by how many light green dots there are on the
+          charts.</p>
       </div>
     </section>
 
@@ -745,13 +766,14 @@
         <div class="blurb hidden">
         </div>
         <div class="blurb">
+          <p>Focusing in on May's story, you can view the sentiment values in a different way with the bar charts.</p>
+        </div>
+        <div class="blurb">
           <p>In total, May had 38 matching lexicon words in her story.</p>
         </div>
         <div class="blurb">
-          <p>The stacked bar chart reveals the frequency of words by sentiment value.</p>
-        </div>
-        <div class="blurb">
           <p>The majority of the words used in her story are categorized in the slightly negative "-1" sentiment value.
+            The word "leave" was used 8 times in this category.
           </p>
         </div>
         <div class="blurb">
@@ -775,7 +797,7 @@
       </article>
 
       <div class="sticky-container plotly-facet-static">
-        <img src="./assets/sentiment_avg_scores.png" alt="Chart of word sentiment values with their average scores.">
+        <img src="./assets/avg-afinn-all.png" alt="Chart of word sentiment values with their average scores.">
       </div>
     </section>
 
@@ -8211,7 +8233,10 @@
         <h2>Remembering</h2>
         <p>May's story is a large part of my story. May is my mother. She passed down her story and experiences to
           me. In turn, I've passed her story on to my children. This is how we remember where we come from and where we
-          will go.</p>
+          will go. In each of her retellings, I learn
+          more
+          about her and more about who
+          I am.</p>
         <br>
         <p>I asked my mother if she thought her story had a more positive or negative narrative arc. She replied that
           she felt her story
