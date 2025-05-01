@@ -20,15 +20,19 @@ article {
   margin: 12rem auto 30rem auto;
   padding: 2rem 1rem;
   min-width: 25%;
-  max-width: 600px;
+  max-width: 500px;
 
   p {
-    text-align: justify;
+    text-align: left;
   }
 
   img {
     width: 100%;
   }
+}
+.blurb.may-story {
+  min-width: 25%;
+  max-width: 600px;
 }
 .blurb.hidden {
   background-color: transparent;

@@ -84,6 +84,7 @@ p {
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 4rem;
 }
 .context {
   max-width: 50%;
@@ -157,7 +158,6 @@ p {
 .plotly-facet {
   height: 80vh;
 }
-
 .word-cloud {
   max-width: 900px;
   margin: 0 auto;
@@ -261,7 +261,7 @@ p {
 }
 .constellation {
   border: 1px solid lightgrey;
-  max-width: 65rem;
+  max-width: 80rem;
   height: 70vh;
 }
 .ending {
