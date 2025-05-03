@@ -25,6 +25,12 @@ scroller
 
       container.src = new URL("./components/may-bubble-match-word.svg", import.meta.url);
     }
+
+    if(el.className.includes("all-positive")) {
+      let container = document.querySelector(".may-bubble-nrc");
+
+      container.src = new URL("./components/nrc-all-positive.svg", import.meta.url);
+    }
   })
   .onStepExit((response) => {
     let el = response.element;
