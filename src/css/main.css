@@ -72,7 +72,7 @@ p {
   }
 }
 .scroll-down {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .remember-stories,
 .remember-words,
@@ -93,7 +93,7 @@ p {
   margin-bottom: 12rem;
 }
 .img-container {
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
 
   img {
@@ -143,7 +143,7 @@ p {
 #story-1-data-container,
 #story-2-data-container,
 #story-3-data-container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto 10rem auto;
 
   iframe {
@@ -216,7 +216,7 @@ p {
   padding: .25rem;
 }
 .plotly-bar {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto 16rem auto;
 }
 .may-bar-chart-container {
@@ -232,7 +232,7 @@ p {
 }
 .nrc-svg,
 .may-nrc-svg {
-  max-width: 900px;
+  max-width: 750px;
   margin: 0 auto;
 
   svg {
